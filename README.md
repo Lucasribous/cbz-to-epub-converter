@@ -98,6 +98,29 @@ PRs et issues sont bienvenus. Suggestions utiles : ajouter des tests unitaires, 
 Proposé : MIT — créer un fichier `LICENSE` si tu veux appliquer cette licence.
 
 ---
+## Packager en .exe (Windows)
+
+Un script PowerShell `build_exe.ps1` est fourni pour créer un exécutable Windows via PyInstaller. Il rassemble les répertoires `scene/`, `assets/`, `ui/` et inclut le `README.md` dans le bundle.
+
+Étapes rapides (PowerShell) :
+
+```pwsh
+# activer l'environnement
+.\.venv\Scripts\Activate.ps1
+
+# installer pyinstaller si nécessaire
+python -m pip install --upgrade pip
+python -m pip install pyinstaller
+
+# builder (script automatique)
+.\build_exe.ps1 -Name "cbz_to_epub" -OneFile
+```
+
+L'exécutable (ou le dossier) apparaîtra dans `dist/`.
+
+Remarques importantes :
+- `ebook-convert` (Calibre) n'est pas inclus : il doit être installé séparément sur la machine cible et accessible dans le PATH.
+- Selon la version de PyQt6 et PyInstaller, il peut être nécessaire d'ajouter `--hidden-import` ou d'ajuster `--add-data` pour inclure des plugins Qt (ex. plateformes). En cas de problèmes, consulte la sortie de PyInstaller et adapte la commande.
 
 Si tu veux, je peux aussi :
 - créer automatiquement un `requirements.txt` (ex : `PyQt6`) et un `LICENSE` MIT,
