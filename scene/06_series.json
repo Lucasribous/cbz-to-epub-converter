@@ -1,0 +1,830 @@
+{
+"name":"06_series",
+"type":"FRAME",
+"visible":true,
+"x":6302,
+"y":-502,
+"width":1290,
+"height":818,
+"rotation":0,
+"opacity":1,
+"cornerRadius":0,
+"cornerSmoothing":0,
+"constraints":
+{
+	"horizontal": "MIN",
+	"vertical": "MIN"
+},
+"fills":
+[
+	{
+		"type": "SOLID",
+		"visible": true,
+		"opacity": 1,
+		"blendMode": "NORMAL",
+		"color": {
+			"r": 1,
+			"g": 1,
+			"b": 1
+		},
+		"boundVariables": {}
+	}
+],
+"strokeCap":"NONE",
+"strokeJoin":"MITER",
+"strokeMiterLimit":4,
+"strokeStyleId":"",
+"strokeWeight":1,
+"children":
+[
+	{
+		"name":"background_main_1290x818 1",
+		"type":"RECTANGLE",
+		"visible":true,
+		"x":0,
+		"y":0,
+		"width":1290,
+		"height":818,
+		"rotation":0,
+		"opacity":1,
+		"cornerRadius":0,
+		"cornerSmoothing":0,
+		"constraints":
+		{
+			"horizontal": "MIN",
+			"vertical": "MIN"
+		},
+		"fills":
+		[
+			{
+				"type": "IMAGE",
+				"src":"images/background_main_1290x818.png",
+				"visible": true,
+				"opacity": 1,
+				"blendMode": "NORMAL",
+				"scaleMode": "FILL",
+				"imageTransform": [
+					[
+						1,
+						0,
+						0
+					],
+					[
+						0,
+						1,
+						0
+					]
+				],
+				"scalingFactor": 0.5,
+				"rotation": 0,
+				"filters": {
+					"exposure": 0,
+					"contrast": 0,
+					"saturation": 0,
+					"temperature": 0,
+					"tint": 0,
+					"highlights": 0,
+					"shadows": 0
+				},
+				"imageHash": "background_main_1290x818"
+			}
+		],
+		"strokeCap":"NONE",
+		"strokeJoin":"MITER",
+		"strokeMiterLimit":4,
+		"strokeStyleId":"",
+		"strokeWeight":1
+	},
+	{
+		"name":"home 1",
+		"type":"RECTANGLE",
+		"visible":true,
+		"x":20,
+		"y":18,
+		"width":944,
+		"height":624,
+		"rotation":0,
+		"opacity":1,
+		"cornerRadius":0,
+		"cornerSmoothing":0,
+		"constraints":
+		{
+			"horizontal": "MIN",
+			"vertical": "MIN"
+		},
+		"fills":
+		[
+			{
+				"type": "IMAGE",
+				"src":"images/serie.png",
+				"visible": true,
+				"opacity": 1,
+				"blendMode": "NORMAL",
+				"scaleMode": "FILL",
+				"imageTransform": [
+					[
+						1,
+						0,
+						0
+					],
+					[
+						0,
+						1,
+						0
+					]
+				],
+				"scalingFactor": 0.5,
+				"rotation": 0,
+				"filters": {
+					"exposure": 0,
+					"contrast": 0,
+					"saturation": 0,
+					"temperature": 0,
+					"tint": 0,
+					"highlights": 0,
+					"shadows": 0
+				},
+				"imageHash": "serie"
+			}
+		],
+		"strokeCap":"NONE",
+		"strokeJoin":"MITER",
+		"strokeMiterLimit":4,
+		"strokeStyleId":"",
+		"strokeWeight":1
+	},
+	{
+		"name":"log_button",
+		"type":"INSTANCE",
+		"visible":true,
+		"x":1002,
+		"y":636,
+		"width":186,
+		"height":56,
+		"rotation":0,
+		"opacity":1,
+		"cornerRadius":0,
+		"cornerSmoothing":0,
+		"constraints":
+		{
+			"horizontal": "MIN",
+			"vertical": "MIN"
+		},
+		"fills":
+		[
+			{
+				"type": "SOLID",
+				"visible": false,
+				"opacity": 1,
+				"blendMode": "NORMAL",
+				"color": {
+					"r": 1,
+					"g": 1,
+					"b": 1
+				},
+				"boundVariables": {}
+			}
+		],
+		"strokeCap":"NONE",
+		"strokeJoin":"MITER",
+		"strokeMiterLimit":4,
+		"strokeStyleId":"",
+		"strokeWeight":1,
+		"children":
+		[
+			{
+				"name":"log_button 1",
+				"type":"RECTANGLE",
+				"visible":true,
+				"x":0,
+				"y":0,
+				"width":186,
+				"height":56,
+				"rotation":0,
+				"opacity":1,
+				"cornerRadius":0,
+				"cornerSmoothing":0,
+				"constraints":
+				{
+					"horizontal": "SCALE",
+					"vertical": "SCALE"
+				},
+				"fills":
+				[
+					{
+						"type": "IMAGE",
+						"src":"images/log_button.png",
+						"visible": true,
+						"opacity": 1,
+						"blendMode": "NORMAL",
+						"scaleMode": "FILL",
+						"imageTransform": [
+							[
+								1,
+								0,
+								0
+							],
+							[
+								0,
+								1,
+								0
+							]
+						],
+						"scalingFactor": 0.5,
+						"rotation": 0,
+						"filters": {
+							"exposure": 0,
+							"contrast": 0,
+							"saturation": 0,
+							"temperature": 0,
+							"tint": 0,
+							"highlights": 0,
+							"shadows": 0
+						},
+						"imageHash": "log_button"
+					}
+				],
+				"strokeCap":"NONE",
+				"strokeJoin":"MITER",
+				"strokeMiterLimit":4,
+				"strokeStyleId":"",
+				"strokeWeight":1
+			}
+		]
+	},
+	{
+		"name":"conversion_button 1",
+		"type":"INSTANCE",
+		"visible":true,
+		"x":1002,
+		"y":524,
+		"width":186,
+		"height":56,
+		"rotation":0,
+		"opacity":1,
+		"cornerRadius":0,
+		"cornerSmoothing":0,
+		"constraints":
+		{
+			"horizontal": "MIN",
+			"vertical": "MIN"
+		},
+		"fills":
+		[
+			{
+				"type": "SOLID",
+				"visible": false,
+				"opacity": 1,
+				"blendMode": "NORMAL",
+				"color": {
+					"r": 1,
+					"g": 1,
+					"b": 1
+				},
+				"boundVariables": {}
+			}
+		],
+		"strokeCap":"NONE",
+		"strokeJoin":"MITER",
+		"strokeMiterLimit":4,
+		"strokeStyleId":"",
+		"strokeWeight":1,
+		"children":
+		[
+			{
+				"name":"conversion_button 1",
+				"type":"RECTANGLE",
+				"visible":true,
+				"x":0,
+				"y":0,
+				"width":186,
+				"height":56,
+				"rotation":0,
+				"opacity":1,
+				"cornerRadius":0,
+				"cornerSmoothing":0,
+				"constraints":
+				{
+					"horizontal": "SCALE",
+					"vertical": "SCALE"
+				},
+				"fills":
+				[
+					{
+						"type": "IMAGE",
+						"src":"images/conversion_button.png",
+						"visible": true,
+						"opacity": 1,
+						"blendMode": "NORMAL",
+						"scaleMode": "FILL",
+						"imageTransform": [
+							[
+								1,
+								0,
+								0
+							],
+							[
+								0,
+								1,
+								0
+							]
+						],
+						"scalingFactor": 0.5,
+						"rotation": 0,
+						"filters": {
+							"exposure": 0,
+							"contrast": 0,
+							"saturation": 0,
+							"temperature": 0,
+							"tint": 0,
+							"highlights": 0,
+							"shadows": 0
+						},
+						"imageHash": "conversion_button"
+					}
+				],
+				"strokeCap":"NONE",
+				"strokeJoin":"MITER",
+				"strokeMiterLimit":4,
+				"strokeStyleId":"",
+				"strokeWeight":1
+			}
+		]
+	},
+	{
+		"name":"epub_button 1",
+		"type":"INSTANCE",
+		"visible":true,
+		"x":1002,
+		"y":428,
+		"width":186,
+		"height":56,
+		"rotation":0,
+		"opacity":1,
+		"cornerRadius":0,
+		"cornerSmoothing":0,
+		"constraints":
+		{
+			"horizontal": "MIN",
+			"vertical": "MIN"
+		},
+		"fills":
+		[
+			{
+				"type": "SOLID",
+				"visible": false,
+				"opacity": 1,
+				"blendMode": "NORMAL",
+				"color": {
+					"r": 1,
+					"g": 1,
+					"b": 1
+				},
+				"boundVariables": {}
+			}
+		],
+		"strokeCap":"NONE",
+		"strokeJoin":"MITER",
+		"strokeMiterLimit":4,
+		"strokeStyleId":"",
+		"strokeWeight":1,
+		"children":
+		[
+			{
+				"name":"epub_button 1",
+				"type":"RECTANGLE",
+				"visible":true,
+				"x":0,
+				"y":0,
+				"width":186,
+				"height":56,
+				"rotation":0,
+				"opacity":1,
+				"cornerRadius":0,
+				"cornerSmoothing":0,
+				"constraints":
+				{
+					"horizontal": "SCALE",
+					"vertical": "SCALE"
+				},
+				"fills":
+				[
+					{
+						"type": "IMAGE",
+						"src":"images/epub_button.png",
+						"visible": true,
+						"opacity": 1,
+						"blendMode": "NORMAL",
+						"scaleMode": "FILL",
+						"imageTransform": [
+							[
+								1,
+								0,
+								0
+							],
+							[
+								0,
+								1,
+								0
+							]
+						],
+						"scalingFactor": 0.5,
+						"rotation": 0,
+						"filters": {
+							"exposure": 0,
+							"contrast": 0,
+							"saturation": 0,
+							"temperature": 0,
+							"tint": 0,
+							"highlights": 0,
+							"shadows": 0
+						},
+						"imageHash": "epub_button"
+					}
+				],
+				"strokeCap":"NONE",
+				"strokeJoin":"MITER",
+				"strokeMiterLimit":4,
+				"strokeStyleId":"",
+				"strokeWeight":1
+			}
+		]
+	},
+	{
+		"name":"cbz_button 1",
+		"type":"INSTANCE",
+		"visible":true,
+		"x":1002,
+		"y":332,
+		"width":187,
+		"height":57,
+		"rotation":0,
+		"opacity":1,
+		"cornerRadius":0,
+		"cornerSmoothing":0,
+		"constraints":
+		{
+			"horizontal": "MIN",
+			"vertical": "MIN"
+		},
+		"fills":
+		[
+			{
+				"type": "SOLID",
+				"visible": false,
+				"opacity": 1,
+				"blendMode": "NORMAL",
+				"color": {
+					"r": 1,
+					"g": 1,
+					"b": 1
+				},
+				"boundVariables": {}
+			}
+		],
+		"strokeCap":"NONE",
+		"strokeJoin":"MITER",
+		"strokeMiterLimit":4,
+		"strokeStyleId":"",
+		"strokeWeight":1,
+		"children":
+		[
+			{
+				"name":"cbz_button 1",
+				"type":"RECTANGLE",
+				"visible":true,
+				"x":0,
+				"y":0,
+				"width":187,
+				"height":57,
+				"rotation":0,
+				"opacity":1,
+				"cornerRadius":0,
+				"cornerSmoothing":0,
+				"constraints":
+				{
+					"horizontal": "SCALE",
+					"vertical": "SCALE"
+				},
+				"fills":
+				[
+					{
+						"type": "IMAGE",
+						"src":"images/cbz_button.png",
+						"visible": true,
+						"opacity": 1,
+						"blendMode": "NORMAL",
+						"scaleMode": "FILL",
+						"imageTransform": [
+							[
+								1,
+								0,
+								0
+							],
+							[
+								0,
+								1,
+								0
+							]
+						],
+						"scalingFactor": 0.5,
+						"rotation": 0,
+						"filters": {
+							"exposure": 0,
+							"contrast": 0,
+							"saturation": 0,
+							"temperature": 0,
+							"tint": 0,
+							"highlights": 0,
+							"shadows": 0
+						},
+						"imageHash": "cbz_button"
+					}
+				],
+				"strokeCap":"NONE",
+				"strokeJoin":"MITER",
+				"strokeMiterLimit":4,
+				"strokeStyleId":"",
+				"strokeWeight":1
+			}
+		]
+	},
+	{
+		"name":"cbz_on 1",
+		"type":"RECTANGLE",
+		"visible":true,
+		"x":1212,
+		"y":330,
+		"width":60,
+		"height":58,
+		"rotation":0,
+		"opacity":1,
+		"cornerRadius":0,
+		"cornerSmoothing":0,
+		"constraints":
+		{
+			"horizontal": "MIN",
+			"vertical": "MIN"
+		},
+		"fills":
+		[
+			{
+				"type": "IMAGE",
+				"src":"images/led_on.png",
+				"visible": true,
+				"opacity": 1,
+				"blendMode": "NORMAL",
+				"scaleMode": "FILL",
+				"imageTransform": [
+					[
+						1,
+						0,
+						0
+					],
+					[
+						0,
+						1,
+						0
+					]
+				],
+				"scalingFactor": 0.5,
+				"rotation": 0,
+				"filters": {
+					"exposure": 0,
+					"contrast": 0,
+					"saturation": 0,
+					"temperature": 0,
+					"tint": 0,
+					"highlights": 0,
+					"shadows": 0
+				},
+				"imageHash": "led_on"
+			}
+		],
+		"strokeCap":"NONE",
+		"strokeJoin":"MITER",
+		"strokeMiterLimit":4,
+		"strokeStyleId":"",
+		"strokeWeight":1
+	},
+	{
+		"name":"epub_on 2",
+		"type":"RECTANGLE",
+		"visible":true,
+		"x":1212,
+		"y":426,
+		"width":60,
+		"height":58,
+		"rotation":0,
+		"opacity":1,
+		"cornerRadius":0,
+		"cornerSmoothing":0,
+		"constraints":
+		{
+			"horizontal": "MIN",
+			"vertical": "MIN"
+		},
+		"fills":
+		[
+			{
+				"type": "IMAGE",
+				"src":"images/led_on.png",
+				"visible": true,
+				"opacity": 1,
+				"blendMode": "NORMAL",
+				"scaleMode": "FILL",
+				"imageTransform": [
+					[
+						1,
+						0,
+						0
+					],
+					[
+						0,
+						1,
+						0
+					]
+				],
+				"scalingFactor": 0.5,
+				"rotation": 0,
+				"filters": {
+					"exposure": 0,
+					"contrast": 0,
+					"saturation": 0,
+					"temperature": 0,
+					"tint": 0,
+					"highlights": 0,
+					"shadows": 0
+				},
+				"imageHash": "led_on"
+			}
+		],
+		"strokeCap":"NONE",
+		"strokeJoin":"MITER",
+		"strokeMiterLimit":4,
+		"strokeStyleId":"",
+		"strokeWeight":1
+	},
+	{
+		"name":"What is the name of this series?",
+		"type":"TEXT",
+		"visible":true,
+		"x":43,
+		"y":668,
+		"width":914,
+		"height":125,
+		"rotation":0,
+		"opacity":1,
+		"constraints":
+		{
+			"horizontal": "MIN",
+			"vertical": "MIN"
+		},
+		"characters":"What  is  the  name  of  this  series?",
+		"fontSize":36,
+		"textAlignHorizontal":"LEFT",
+		"textAlignVertical":"TOP",
+		"fontName":
+		{
+			"family": "Pixelify Sans",
+			"style": "Regular"
+		},
+		"fills":
+		[
+			{
+				"type": "SOLID",
+				"visible": true,
+				"opacity": 1,
+				"blendMode": "NORMAL",
+				"color": {
+					"r": 1,
+					"g": 1,
+					"b": 1
+				},
+				"boundVariables": {}
+			}
+		],
+		"strokeCap":"NONE",
+		"strokeJoin":"MITER",
+		"strokeMiterLimit":4,
+		"strokeStyleId":"",
+		"strokeWeight":1
+	},
+	{
+		"name":"next_button 1",
+		"type":"RECTANGLE",
+		"visible":true,
+		"x":678,
+		"y":784,
+		"width":279,
+		"height":17,
+		"rotation":0,
+		"opacity":1,
+		"cornerRadius":0,
+		"cornerSmoothing":0,
+		"constraints":
+		{
+			"horizontal": "MIN",
+			"vertical": "MIN"
+		},
+		"fills":
+		[
+			{
+				"type": "IMAGE",
+				"src":"images/next_button.png",
+				"visible": true,
+				"opacity": 1,
+				"blendMode": "NORMAL",
+				"scaleMode": "FILL",
+				"imageTransform": [
+					[
+						1,
+						0,
+						0
+					],
+					[
+						0,
+						1,
+						0
+					]
+				],
+				"scalingFactor": 0.5,
+				"rotation": 0,
+				"filters": {
+					"exposure": 0,
+					"contrast": 0,
+					"saturation": 0,
+					"temperature": 0,
+					"tint": 0,
+					"highlights": 0,
+					"shadows": 0
+				},
+				"imageHash": "next_button"
+			}
+		],
+		"strokeCap":"NONE",
+		"strokeJoin":"MITER",
+		"strokeMiterLimit":4,
+		"strokeStyleId":"",
+		"strokeWeight":1
+	},
+	{
+		"name":"conversion_off 1",
+		"type":"RECTANGLE",
+		"visible":true,
+		"x":1132,
+		"y":740,
+		"width":34,
+		"height":34,
+		"rotation":0,
+		"opacity":1,
+		"cornerRadius":0,
+		"cornerSmoothing":0,
+		"constraints":
+		{
+			"horizontal": "MIN",
+			"vertical": "MIN"
+		},
+		"fills":
+		[
+			{
+				"type": "IMAGE",
+				"src":"images/conversion_off.png",
+				"visible": true,
+				"opacity": 1,
+				"blendMode": "NORMAL",
+				"scaleMode": "FILL",
+				"imageTransform": [
+					[
+						1,
+						0,
+						0
+					],
+					[
+						0,
+						1,
+						0
+					]
+				],
+				"scalingFactor": 0.5,
+				"rotation": 0,
+				"filters": {
+					"exposure": 0,
+					"contrast": 0,
+					"saturation": 0,
+					"temperature": 0,
+					"tint": 0,
+					"highlights": 0,
+					"shadows": 0
+				},
+				"imageHash": "conversion_off"
+			}
+		],
+		"strokeCap":"NONE",
+		"strokeJoin":"MITER",
+		"strokeMiterLimit":4,
+		"strokeStyleId":"",
+		"strokeWeight":1
+	}
+]
+}
