@@ -1,0 +1,80 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest / coverage
+.pytest_cache/
+.cache/
+.mypy_cache/
+htmlcov/
+coverage.xml
+.coverage
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*~
+*.bak
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local settings / secrets
+.env
+.env.*
+secrets.yaml
+
+# Temporary files created by the app or conversion process
+temp*/
+tmp*/
+*.part
+
+# Output files (EPUB/CBZ) - treat generated books as build artifacts
+*.epub
+*.cbz
+
+# Calibre temporary files
+calibre-debug.log
+
+# OS-specific (Windows)
+desktop.ini
+
+# SQLite DBs (if any created during testing)
+*.sqlite3
+
+# Misc
+*.cache
+
+# Keep this file under version control
+# (edit to suit your workflow)
