@@ -516,6 +516,13 @@ class MainApp(QStackedWidget):
                             out_path = str(out_dir / (base_name + '.epub'))
 
                             cmd = [ebook_convert, in_path, out_path]
+                            # Ensure the EPUB title metadata matches the output filename
+                            try:
+                                safe_title = _sanitize_filename(base_name)
+                                if safe_title:
+                                    cmd += ['--title', str(safe_title)]
+                            except Exception:
+                                pass
                             # Preserve original CBZ cover: detect an image file in the
                             # repaired archive that is most likely the cover (filename
                             # contains 'cover' or the first image by sorted name). If

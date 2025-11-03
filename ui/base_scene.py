@@ -1116,7 +1116,7 @@ class BaseScene(QWidget):
                             le.setStyleSheet("background: rgba(0,0,0,0.4); border: 2px dashed #00FF00; color: #FFFFFF;")
                         else:
                             le.setStyleSheet("background: transparent; border: none; color: #FFFFFF;")
-                        le.setPlaceholderText("_")
+                        le.setPlaceholderText("")
                         le.setAlignment(Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignVCenter)
 
                         def _save_author():
@@ -1161,6 +1161,13 @@ class BaseScene(QWidget):
                             le.focusOutEvent = _focus_wrapper
                         except Exception:
                             # last-resort: ignore
+                            pass
+                        # Auto-focus so the user can start typing without clicking.
+                        try:
+                            le.setFocusPolicy(Qt.FocusPolicy.StrongFocus)
+                            # schedule focus after the event loop so focus is reliable
+                            QTimer.singleShot(50, lambda: (le.setFocus(), le.setCursorPosition(len(le.text()))))
+                        except Exception:
                             pass
 
                     # Series scene
@@ -1208,7 +1215,7 @@ class BaseScene(QWidget):
                             le2.setStyleSheet("background: rgba(0,0,0,0.4); border: 2px dashed #00FF00; color: #FFFFFF;")
                         else:
                             le2.setStyleSheet("background: transparent; border: none; color: #FFFFFF;")
-                        le2.setPlaceholderText("_")
+                        le2.setPlaceholderText("")
                         le2.setAlignment(Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignVCenter)
 
                         def _save_series():
@@ -1248,6 +1255,15 @@ class BaseScene(QWidget):
                                 except Exception:
                                     pass
                             le2.focusOutEvent = _focus_wrapper2
+                        except Exception:
+                            pass
+
+                        # Auto-focus series input so typing works immediately.
+                        try:
+                            le2.setFocusPolicy(Qt.FocusPolicy.StrongFocus)
+                            QTimer.singleShot(50, lambda: (le2.setFocus(), le2.setCursorPosition(len(le2.text()))))
+                        except Exception:
+                            pass
                         except Exception:
                             pass
                 except Exception:
